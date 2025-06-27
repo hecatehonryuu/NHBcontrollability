@@ -1,3 +1,20 @@
+# Current working setup:
+
+matlab R2024b
+[Psychtoolbox v3.0.22](http://psychtoolbox.org/download.html) (+ [Gstreamer MSVC](https://gstreamer.freedesktop.org/download/#windows))
+Statistic and Machine Learning toolbox (matlab app)
+Image Processing toolbox (matlab app)
+
+TO TEST:
+matlab R2025a
+[Psychtoolbox v3.0.19](https://github.com/Psychtoolbox-3/Psychtoolbox-3/tree/3.0.19.17)
+
+# Commands to run experiment (copy paste into matlab once in dir folder)
+
+cd Experiment/ExploreAndPredict_SSSAS_updated/SSSAS_task
+A_NEWSUBJECT
+B_LAUNCH_SESSION
+
 # NHBcontrollability
 
 This repository contains the code used to generate the main figures of the paper Stress-sensitive inference of task controllability by Romain Ligneul, Zachary Mainen, Verena Ly* and Roshan Cools*.
@@ -9,6 +26,7 @@ The folders in "AnalysisFunctions" contain also the code used for computational 
 The folder "Experiment" contains the task itself. You need to have Psychtoolbox 3 and GStreamer properly installed to run it. Sets of instructions are provided in English, Dutch and German.
 
 The scripts rely on several external toolboxes which can be found in ExternalTools. The main ones are:
+
 - the VBA toolbox (for VB model fitting): https://mbb-team.github.io/VBA-toolbox/
 - the gramm toolbox (for plotting): https://github.com/piermorel/gramm
 - the MI toolbox (for information theoretic computations): https://github.com/Craigacp/MIToolbox
