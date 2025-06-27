@@ -1,18 +1,18 @@
 # Current working setup:
 
 matlab R2024b
-[Psychtoolbox v3.0.22](http://psychtoolbox.org/download.html) (+ [Gstreamer MSVC](https://gstreamer.freedesktop.org/download/#windows))
-Statistic and Machine Learning toolbox (matlab app)
+[Psychtoolbox v3.0.22](http://psychtoolbox.org/download.html) (+ [Gstreamer MSVC](https://gstreamer.freedesktop.org/download/#windows))  
+Statistic and Machine Learning toolbox (matlab app)  
 Image Processing toolbox (matlab app)
 
-TO TEST:
-matlab R2025a
+TO TEST:  
+matlab R2025a  
 [Psychtoolbox v3.0.19](https://github.com/Psychtoolbox-3/Psychtoolbox-3/tree/3.0.19.17)
 
-# Commands to run experiment (copy paste into matlab once in dir folder)
+### Commands to run experiment (copy paste into matlab once in dir folder)
 
-cd Experiment/ExploreAndPredict_SSSAS_updated/SSSAS_task
-A_NEWSUBJECT
+cd Experiment/ExploreAndPredict_SSSAS_updated/SSSAS_task  
+A_NEWSUBJECT  
 B_LAUNCH_SESSION
 
 # NHBcontrollability
